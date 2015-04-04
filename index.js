@@ -1,7 +1,7 @@
 var http = require('http');
 
 var server = http.createServer(function(request, response) {
-	response.end('Hello World');
+	response.end('<h1>Stoian</h1><br><a href="http://ivanovyordan.com">Yordan Ivanov</>');
 });
 
 server.listen(80);
